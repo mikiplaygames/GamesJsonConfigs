@@ -1,0 +1,91 @@
+{
+    "UseOnlineConfig": true,
+    "UseHardcoded": false,
+    "BasicShipCost": 500,
+    "ExhibitionCost": 1000,
+    "MaxUpgradeLevel": 5,
+    "BaseShipValues": {
+        "pairs": [
+            {
+                "Key": "MaxSpeed",
+                "Value": 10
+            },
+            {
+                "Key": "CargoCapacity",
+                "Value": 12
+            },
+            {
+                "Key": "Efficiency",
+                "Value": 50
+            },
+            {
+                "Key": "FuelCapacity",
+                "Value": 100
+            }
+        ]
+    },
+    "ShipUpgradeValues": {
+        "pairs": [
+            {
+                "Key": "MaxSpeed",
+                "Value": 2
+            },
+            {
+                "Key": "CargoCapacity",
+                "Value": 3
+            },
+            {
+                "Key": "Efficiency",
+                "Value": 10
+            },
+            {
+                "Key": "FuelCapacity",
+                "Value": 20
+            }
+        ]
+    },
+    "ShipUpgradeCosts": {
+        "pairs": [
+            {
+                "Key": "MaxSpeed",
+                "Value": [
+                    100,
+                    200,
+                    300,
+                    400,
+                    500
+                ]
+            },
+            {
+                "Key": "CargoCapacity",
+                "Value": [
+                    150,
+                    300,
+                    450,
+                    600,
+                    750
+                ]
+            },
+            {
+                "Key": "Efficiency",
+                "Value": [
+                    200,
+                    400,
+                    600,
+                    800,
+                    1000
+                ]
+            },
+            {
+                "Key": "FuelCapacity",
+                "Value": [
+                    250,
+                    500,
+                    750,
+                    1000,
+                    1250
+                ]
+            }
+        ]
+    }
+}
